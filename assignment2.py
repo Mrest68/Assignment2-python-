@@ -12,7 +12,7 @@ class Assignment2:
     def tellAge(self, currentYear):
         age = currentYear - self.year 
 
-        print("Your age is ", age)
+        print("Your age is", age)
 
     def listAnniversaries(self):
         currentYear = 2022
@@ -36,11 +36,12 @@ class Assignment2:
        
        char = []
        for i in range(0, len(converted_year),2):
-           print(converted_year)
            char.append(converted_year[i])
            result = "".join(char)
-     
-       return result, part1
+    
+       l = [part1,result]
+       result = "".join(l)
+       return result
 
 
     @staticmethod
@@ -91,7 +92,7 @@ class Assignment2:
 
 a = Assignment2(2000)
 
-# part2 = a.tellAge(2024)
+#part2 = a.tellAge(2024)
 
 # part3 = a.listAnniversaries()
 
@@ -109,5 +110,6 @@ else:
     print("Some error")"""
 
 # test
+
 
 print("""Insert part to test here""")
