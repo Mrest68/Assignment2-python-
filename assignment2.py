@@ -69,7 +69,7 @@ class Assignment2:
 
             
 
-        if counter > 1:
+        if counter > 1 or counter != 1:
             return False
 
 
